@@ -1,0 +1,58 @@
+// custom colors
+$green: #39755C;
+$green-light: #538F76; 
+$cyan: #81AFB5;
+$cyan-light: #9BC9CF;
+$blue: #286080;
+$blue-light: #AAAAFF;
+$yellow: #E2B570;
+$yellow-light: #FCCF8A;
+$red: #913A52;
+$red-light: #AB546C; 
+
+$not-quite-white: #f6f6f6;
+$really-quite-grey: #433f3f;
+
+$grey-light: #FFECED;
+$grey:#FBD4D2;
+$grey-dark: #948b8b;
+
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: "'Roboto Mono', monospace",
+  $family-secondary: "'Gelasio', serif",
+  $family-sans-serif: "Rubik",
+  
+  $primary: $green,
+  $grey: $grey,
+  $grey-light: $grey-light,
+  $grey-dark: $grey-dark,
+
+  $custom-colors: (
+    "not-quite-white": $not-quite-white,
+    "really-quite-grey": $really-quite-grey,
+    "green": $green,
+    "green-light": $green-light,
+    "cyan": $cyan,
+    "cyan-light": $cyan-light,
+    "blue": $blue,
+    "blue-light": $blue-light,
+    "yellow": $yellow,
+    "yellow-light": $yellow-light,
+    "red": $red,
+    "red-light": $red-light,
+  ),
+
+
+  $card-content-padding: .5em,
+  $control-border-width: 2px,
+  $input-shadow: none
+);
+
+// Import the Google Font
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import 'bulma/css/bulma.css';

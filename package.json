@@ -1,0 +1,26 @@
+{
+  "name": "bouseportfolio",
+  "private": true,
+  "version": "1.0.2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bulma": "^1.0.1",
+    "dragselect": "^3.0.7",
+    "gsap": "^3.12.5",
+    "sass": "^1.77.5",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
